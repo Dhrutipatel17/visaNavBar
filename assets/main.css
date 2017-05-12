@@ -50,6 +50,20 @@ nav {
 }
 
 /*=== search icon ===*/
+
+.searchDesktop {
+	display: block;
+}
+.searchMobile {
+	display: none;
+}
+
+.nav .open > a,
+.nav .open > a:focus,
+.nav .open > a:hover {
+	background: none;
+}
+
 .glyphicon-search {
 	font-size: 2.6rem;
 	border-left: 1.5px solid #4E60AB;
@@ -58,6 +72,8 @@ nav {
 	height: 45px;
 	padding-left: 35px;
 }
+
+
 
 @media only screen and (max-width: 1199px) {
 
@@ -151,8 +167,32 @@ nav {
 		color: #1a1f71;
 	}
 
+	/*=== hamburger ===*/
+	.navbar-toggle {
+		margin-right: 50px;
+		margin-top: 14px;
+	}
+
 	/*=== Visa Logo ===*/
 	.navbar > .container-fluid .navbar-brand {
 		margin-top: 0.7rem;
+	}
+
+	/*=== search icon ===*/
+	.nav > li.searchDesktop {
+		display: none;
+	}
+	.searchMobile {
+		display: block;
+		position: absolute;
+		right: 10px;
+	}
+
+	.glyphicon-search {
+		border-left: 1px solid #4E60AB;
+		margin-top: 18px;
+		height: 25px;
+		color: #F7B600;
+		padding-left: 15px;
 	}
 }
