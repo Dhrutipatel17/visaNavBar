@@ -1,0 +1,137 @@
+/*=== Navbar ===*/
+
+nav {
+	background: linear-gradient(to right, #1A1E5C 0%, #16267C 50%, #122D96 100%);
+	height: 86px;
+}
+
+.container-fluid {
+	padding: 0 1.5rem;
+	max-width: 1170px;
+}
+
+/*=== navbar header ===*/
+
+.nav.navbar-nav {
+	margin-top: 16px;
+	margin-left: 100px;
+}
+
+/*=== navigation items ===*/
+
+.nav li a {
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 17px;
+	background: none;
+}
+
+.nav li a:hover {
+	color: #F7B600;
+	background: none;
+}
+
+.nav li a:focus {
+	background: none;
+}
+
+/*=== hamburger ===*/
+
+.icon-bar {
+	background-color: white;
+}
+
+/*=== Visa Logo ===*/
+
+.navbar-brand {
+	margin-top: 0.8rem;
+}
+
+.navbar-brand img {
+	height: 40px;
+}
+
+/*=== search icon ===*/
+.glyphicon-search {
+	font-size: 2.6rem;
+	border-left: 1.5px solid #4E60AB;
+	padding-top: 10px;
+	margin-top: -10px;
+	height: 45px;
+	padding-left: 35px;
+}
+
+@media only screen and (max-width: 1199px) {
+
+	/*=== Navbar ===*/
+	nav {
+		height: 68px;
+	}
+
+	/*=== navigation items ===*/
+
+	.nav.navbar-nav {
+		margin-top: 8px;
+		float: right;
+		margin-left: 0;
+	}
+
+	/*=== Visa Logo ===*/
+
+	.navbar > .container-fluid .navbar-brand {
+		margin-top: 0.3rem;
+		margin-left: 0.5rem;
+	}
+
+	.navbar-brand img {
+		height: 32px;
+	}
+}
+
+@media only screen and (max-width: 1033px) {
+
+	/*=== Navbar ===*/
+	nav {
+		height: 60px;
+	}
+
+	.nav.navbar-nav {
+		margin-top: 5px;
+	}
+
+	/*=== navigation items ===*/
+
+	.nav li a {
+		font-size: 13px;
+		padding-right: 9px;
+		padding-left: 9px;
+	}
+
+	/*=== Visa Logo ===*/
+
+	.navbar > .container-fluid .navbar-brand {
+		margin-left: 0;
+	}
+
+	.navbar-brand img {
+		height: 25px;
+	}
+
+	/*=== search icon ===*/
+	.glyphicon-search {
+		font-size: 2rem;
+		border-left: 1px solid #4E60AB;
+		padding-top: 5px;
+		margin-top: -5px;
+		height: 30px;
+		padding-left: 20px;
+	}
+}
+
+/*=== Mobile ===*/
+@media only screen and (max-width: 767px) {
+	/*=== Navbar ===*/
+	nav {
+		height: auto;
+	}
+}
