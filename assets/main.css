@@ -1,11 +1,12 @@
 /*=== Navbar ===*/
 nav {
 	background: linear-gradient(to right, #1A1E5C 0%, #16267C 50%, #122D96 100%);
-	height: 86px;
+	height: 90px;
 }
 
 .navbar {
 	border-radius: 0;
+	border-bottom: 5px solid #F2CA13;
 }
 
 .container-fluid {
@@ -64,7 +65,7 @@ nav {
 	background: none;
 }
 
-.glyphicon-search {
+a .glyphicon-search {
 	font-size: 2.6rem;
 	border-left: 1.5px solid #4E60AB;
 	padding-top: 10px;
@@ -73,13 +74,62 @@ nav {
 	padding-left: 35px;
 }
 
+/*=== Search Menu ===*/
+.nav > li.dropdown.open {
+    position: static;
+}
+.nav > li.dropdown.open .dropdown-menu {
+    display: table; 
+    width: 100%;
+    text-align: center; 
+    left: 0; 
+    right: 0;
+    border: 0;
+    border-radius: 0;
+    box-shadow: 0 2px 1px #888888;
+    margin-top: 5px;
+}
+.dropdown-menu > li {
+    display: table-cell;
+}
 
+.dropdown-menu .input-group {
+	width: 85%;
+	margin: 25px auto;
+}
+
+.dropdown-menu .input-group-addon {
+	background: white;
+	height: 33px;
+	color: #CCCCCC;
+	border-radius: 0;
+	font-size: 20px;
+}
+
+.dropdown-menu .form-control {
+	border-left: 0;
+	border-radius: 0;
+	height: 44px;
+	font-size: 18px;
+}
+
+.dropdown-menu h4 {
+	width: 83.5%;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	color: #1a1f71;
+	font-size: 14px;
+	padding-bottom: 10px;
+	border-bottom: .1rem solid #dedede;
+	margin-bottom: 20px;
+}
 
 @media only screen and (max-width: 1199px) {
 
 	/*=== Navbar ===*/
 	nav {
-		height: 68px;
+		height: 73px;
 	}
 
 	/*=== navigation items ===*/
@@ -104,7 +154,7 @@ nav {
 
 	/*=== Navbar ===*/
 	nav {
-		height: 60px;
+		height: 65px;
 	}
 
 	/*=== navigation items ===*/
@@ -128,7 +178,7 @@ nav {
 	}
 
 	/*=== search icon ===*/
-	.glyphicon-search {
+	a .glyphicon-search {
 		font-size: 2rem;
 		border-left: 1px solid #4E60AB;
 		padding-top: 5px;
