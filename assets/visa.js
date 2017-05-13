@@ -22,7 +22,7 @@ $(document).ready(function() {
     });
 
     $('.nav > li').on('click', function(event) {
-    	console.log(event.target) // test to see what click hits (event is a tag)
+    	console.log(event.target) // test to see what click hits (event is an a tag)
     	$(event.target).children().toggleClass('glyphicon-menu-down');
     	$(event.target).children().toggleClass('glyphicon-menu-right');
     })

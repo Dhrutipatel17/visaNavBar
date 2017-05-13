@@ -40,8 +40,10 @@ nav.navbar.borderColor {
 	background: none;
 }
 
-.nav li a .glyphicon-menu-right {
+.nav li a .glyphicon-menu-right,
+.nav li a .glyphicon-menu-down {
 	display: none;
+	font-size: 17px;
 }
 
 /*=== hamburger ===*/
@@ -266,7 +268,6 @@ a .glyphicon-triangle-top.carrot {
 	.nav li a .glyphicon-menu-right,
 	.nav li a .glyphicon-menu-down {
 		display: inline;
-		font-size: 17px;
 	}
 
 	/*=== hamburger ===*/
