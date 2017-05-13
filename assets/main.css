@@ -82,6 +82,7 @@ a .glyphicon-search {
 .nav > li.dropdown.open {
     position: static;
 }
+
 .nav > li.dropdown.open .dropdown-menu {
     display: table; 
     width: 100%;
@@ -93,6 +94,7 @@ a .glyphicon-search {
     box-shadow: 0 2px 1px #888888;
     margin-top: 5px;
 }
+
 .dropdown-menu > li {
     display: table-cell;
 }
@@ -242,11 +244,30 @@ a .glyphicon-search {
 		right: 10px;
 	}
 
-	.glyphicon-search {
+	a .glyphicon-search {
 		border-left: 1px solid #4E60AB;
 		margin-top: 18px;
 		height: 25px;
 		color: #F7B600;
-		padding-left: 15px;
+		padding-left: 14px;
+		position: absolute;
+		right: 2.1%;
+	}
+
+	/* === Dropdown Menu Mobile ===*/
+	.navbar-header > div.dropdown.open {
+	    position: static;
+	}
+
+	.navbar-header > div.dropdown.open .dropdown-menu {
+	    display: table; 
+	    width: 100%;
+	    text-align: center; 
+	    left: 0; 
+	    right: 0;
+	    border: 0;
+	    border-radius: 0;
+	    box-shadow: 0 2px 1px #888888;
+	    margin-top: 5px;
 	}
 }
