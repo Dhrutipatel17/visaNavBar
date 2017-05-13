@@ -9,6 +9,10 @@ nav {
 	border-bottom: 5px solid #F2CA13;
 }
 
+.navbar.borderColor {
+	border-bottom: 5px solid #F7B600;
+}
+
 .container-fluid {
 	padding: 0 1.5rem;
 	max-width: 1170px;

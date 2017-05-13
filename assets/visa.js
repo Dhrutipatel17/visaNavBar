@@ -1,4 +1,7 @@
-// $(document).ready(function() {
+$(document).ready(function() {
 
+	$('#search').on('click', function() {
+		$('.navbar').toggleClass('borderColor')
+	})
 
-// })
+})
