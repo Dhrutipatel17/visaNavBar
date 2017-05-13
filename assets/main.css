@@ -49,6 +49,13 @@ nav.navbar.borderColor {
 	background-color: white;
 }
 
+/*=== remove icon ===*/
+.glyphicon-remove {
+	color: white;
+	font-size: 28px;
+	margin-top: -4px;
+}
+
 /*=== Visa Logo ===*/
 .navbar-brand {
 	margin-top: 0.8rem;
@@ -266,6 +273,19 @@ a .glyphicon-triangle-top.carrot {
 	.navbar-toggle {
 		margin-right: 50px;
 		margin-top: 14px;
+	}
+
+	.icon-bar.open {
+		display: none;
+	}
+
+	/*=== remove icon ===*/
+	.glyphicon-remove {
+		display: none;
+	}
+
+	.glyphicon-remove.open {
+		display: block;
 	}
 
 	/*=== Visa Logo ===*/

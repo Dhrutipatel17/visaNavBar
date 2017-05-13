@@ -27,6 +27,11 @@ $(document).ready(function() {
     	$(event.target).children().toggleClass('glyphicon-menu-right');
     })
 
+    $('.navbar-toggle').on('click', function() {
+    	$('.icon-bar').toggleClass('open');
+    	$('.glyphicon-remove').toggleClass('open');
+    })
+
 })
 
 // Used Vanilla JS to determine if category did not have sub-categories (menu span means it does)
@@ -34,6 +39,6 @@ var categories = document.getElementsByClassName('category')
 
 for(var i = 0; i < categories.length; i++) {
 	if(categories[i].children.length === 0) {
-		categories[i].className += ' noSubs'
+		categories[i].className += ' noSubs';
 	}
 }
