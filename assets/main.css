@@ -40,6 +40,10 @@ nav.navbar.borderColor {
 	background: none;
 }
 
+.nav li a .glyphicon-menu-right {
+	display: none;
+}
+
 /*=== hamburger ===*/
 .icon-bar {
 	background-color: white;
@@ -244,8 +248,18 @@ a .glyphicon-triangle-top.carrot {
 		font-size: 22px;
 	}
 
+	.nav li a.noSubs {
+		margin-left: 23px;
+	}
+
 	.nav li a:hover {
 		color: #1a1f71;
+	}
+
+	.nav li a .glyphicon-menu-right,
+	.nav li a .glyphicon-menu-down {
+		display: inline;
+		font-size: 17px;
 	}
 
 	/*=== hamburger ===*/
